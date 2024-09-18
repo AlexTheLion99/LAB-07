@@ -1,8 +1,8 @@
 
 import './App.css'
-import { WapperList } from './components/WrapperList';
-import { List } from './components/List';
-import { Button } from './components/Button'
+/* import { WapperList } from './components/WrapperList';
+import { List } from './components/List'; */
+import { Button } from './components/Button';
 
 function App() {
 
@@ -10,9 +10,9 @@ function App() {
 
   return (
     <>
-      <WapperList>
+      {/* <WapperList>
         <List/>
-      </WapperList>
+      </WapperList> */}
       <Button/>
       {/* <h1>My name is Dietmar Alex Apaza</h1>
       <Button text={buttonText}/> */}
