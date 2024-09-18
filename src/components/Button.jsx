@@ -8,7 +8,8 @@ export const Button = props => {
 
     function handlerButton (){
 
-    setCount(count + 5);
+    setCount(count + 1);
+    alert(Math.floor(Math.random() * 100) + 1);
 }
 
 return ( 
