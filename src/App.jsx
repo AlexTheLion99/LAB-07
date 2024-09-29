@@ -1,22 +1,15 @@
 
-import './App.css'
-import { WapperList } from './components/WrapperList';
-import { List } from './components/List';
-import { Button } from './components/Button'
+
+import RandomComponent from './components/RandomComponent';
+
 
 function App() {
-
-    /* const buttonText="count :";*/
-
   return (
-    <>
-      <WapperList>
-        <List/>
-      </WapperList>
-      <Button/>
-      {/* <h1>My name is Dietmar Alex Apaza</h1>
-      <Button text={buttonText}/> */}
-    </>
-  )
+    <div>
+      <h1>My website in React + Vite</h1>
+      <RandomComponent />
+    </div>
+  );
 }
-export default App
+
+export default App;
