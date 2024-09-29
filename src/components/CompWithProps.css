@@ -1,0 +1,22 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background-color: #8c6060;
+  }
+  
+  .input-box {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .text-output {
+    font-size: 18px;
+    color: #333;
+  }
+  
